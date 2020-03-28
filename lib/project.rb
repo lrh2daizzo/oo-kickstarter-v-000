@@ -5,4 +5,8 @@ class Project
     @title = title
   end
 
+  def add_backer(backer)
+    backer.back_project(self)
+  end
+  
 end
