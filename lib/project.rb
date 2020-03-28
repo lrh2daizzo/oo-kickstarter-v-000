@@ -8,5 +8,5 @@ class Project
   def add_backer(backer)
     backer.back_project(self)
   end
-  
+
 end
